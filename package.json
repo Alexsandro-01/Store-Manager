@@ -1,0 +1,27 @@
+{
+  "name": "init",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./src/tests/*.test.js -t 5000 --exit",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alexsandro-01/Store-Manager.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alexsandro-01/Store-Manager/issues"
+  },
+  "homepage": "https://github.com/Alexsandro-01/Store-Manager#readme",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "express": "^4.18.2",
+    "mocha": "^10.0.0",
+    "sinon": "^14.0.1"
+  }
+}
